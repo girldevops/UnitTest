@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.853 sec <<< FAILURE! - in TestSuite
+test_02(android.Pages.SignInTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: test fail  expected [true] but found [false]
+	at android.Pages.SignInTest.test_02(SignInTest.java:37)
+

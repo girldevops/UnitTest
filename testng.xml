@@ -1,0 +1,12 @@
+
+<suite thread-count="1" verbose="1" name="Suite" annotations="JDK" parallel="tests">
+    <test name="Test SignUp page">
+        <classes>
+            <!--<class name="android.Pages.SignUpTest"/>-->
+            <class name="android.Pages.SignInTest"/>
+
+
+        </classes>
+    </test>
+
+</suite>

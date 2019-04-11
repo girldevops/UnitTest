@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <test parallel="tests" name="Test SignUp page(failed)">
+    <classes>
+      <class name="android.Pages.SignInTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="getResult"/>
+          <include name="test_02"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.Pages.SignInTest -->
+    </classes>
+  </test> <!-- Test SignUp page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

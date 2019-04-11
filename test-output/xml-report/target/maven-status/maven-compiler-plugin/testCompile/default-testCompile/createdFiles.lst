@@ -1,0 +1,6 @@
+android/Framework/AndroidConfigClass.class
+android/Framework/ExtentReportManager.class
+android/Operations/AbstractOperation.class
+android/Pages/AbstractTest.class
+android/Pages/SignInTest.class
+android/Framework/GenericOperations.class

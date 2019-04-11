@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-04-11T10:21:21Z" name="Suite" finished-at="2019-04-11T10:21:22Z" duration-ms="977">
+    <groups>
+    </groups>
+    <test started-at="2019-04-11T10:21:21Z" name="Test SignUp page" finished-at="2019-04-11T10:21:22Z" duration-ms="977">
+      <class name="android.Pages.SignInTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:android.Pages.SignInTest@50b472aa]" started-at="2019-04-11T12:21:21Z" name="beforeClass" finished-at="2019-04-11T12:21:22Z" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test_01()[pri:0, instance:android.Pages.SignInTest@50b472aa]" started-at="2019-04-11T12:21:22Z" name="test_01" finished-at="2019-04-11T12:21:22Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:android.Pages.SignInTest@50b472aa]" started-at="2019-04-11T12:21:22Z" name="getResult" finished-at="2019-04-11T12:21:22Z" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_01 status=SUCCESS method=SignInTest.test_01()[pri:0, instance:android.Pages.SignInTest@50b472aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="test_02()[pri:0, instance:android.Pages.SignInTest@50b472aa]" started-at="2019-04-11T12:21:22Z" name="test_02" finished-at="2019-04-11T12:21:22Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[test fail  expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: test fail  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at android.Pages.SignInTest.test_02(SignInTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:android.Pages.SignInTest@50b472aa]" started-at="2019-04-11T12:21:22Z" name="tearDown" finished-at="2019-04-11T12:21:22Z" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:android.Pages.SignInTest@50b472aa]" started-at="2019-04-11T12:21:22Z" name="getResult" finished-at="2019-04-11T12:21:22Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_02 status=FAILURE method=SignInTest.test_02()[pri:0, instance:android.Pages.SignInTest@50b472aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- android.Pages.SignInTest -->
+    </test> <!-- Test SignUp page -->
+  </suite> <!-- Suite -->
+</testng-results>
