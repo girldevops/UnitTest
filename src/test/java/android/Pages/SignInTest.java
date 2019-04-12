@@ -34,7 +34,7 @@ public class SignInTest extends AbstractTest{
     public void test_02() throws Exception {
         test = a.createTest("SignIn: test_01", "");
 
-        Assert.assertTrue(var == 2, "test fail ");
+        Assert.assertTrue(var == 1, "test fail ");
     }
 
 
