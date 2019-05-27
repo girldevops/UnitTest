@@ -17,11 +17,11 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
     jdkArchitectureOption: 'x64'
-    goals: 'clean'
+    goals: 'test'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
-    goals: 'deploy'
+    goals: 'package'
     publishJUnitResults: true
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'Default'
